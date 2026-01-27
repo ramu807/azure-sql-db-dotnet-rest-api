@@ -95,11 +95,19 @@ Now listening on: https://localhost:5001
 
 Using a REST Client (like [Insomnia](https://insomnia.rest/), [Postman](https://www.getpostman.com/) or curl), you can now call your API, for example:
 
+To get API information:
+
 ```bash
-curl -k -X GET http://localhosts:5001/customer/123
+curl -k -X GET http://localhost:5001/info
 ```
 
-and you'll get info on Customer 123:
+To get info on Customer 123:
+
+```bash
+curl -k -X GET http://localhost:5001/customer/123
+```
+
+and you'll get:
 
 ```json
 [
