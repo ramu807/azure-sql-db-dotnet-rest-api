@@ -1,5 +1,11 @@
 # Sample REST API usage with cUrl
 
+## Get API Information
+
+```bash
+curl -s -k -X GET https://localhost:5001/info
+```
+
 ## Get a customer
 
 ```bash
